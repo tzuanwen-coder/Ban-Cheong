@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ban Cheong HardWare Machinery Supply</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f5f0;
+      margin: 0;
+      color: #333;
+    }
+
+    .navbar {
+      background-color: white;
+      padding: 18px 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+      position: sticky;
+      top: 0;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 24px;
+      font-weight: bold;
+      color: #8b5e3c;
+    }
+
+    .logo-circle {
+      width: 42px;
+      height: 42px;
+      background-color: #8b5e3c;
+      color: white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #333;
+      margin-left: 24px;
+      font-size: 15px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 70px 20px;
+      background: linear-gradient(to right, #f3dfc1, #fff7ec);
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+      color: #5c3b24;
+    }
+
+    .hero p {
+      font-size: 18px;
+      color: #6b6b6b;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-top: 50px;
+      font-size: 30px;
+      color: #5c3b24;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 28px;
+      max-width: 1000px;
+      margin: 30px auto 60px;
+      padding: 0 20px;
+    }
+
+    .product {
+      background-color: white;
+      border-radius: 18px;
+      padding: 18px;
+      text-align: center;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+    }
+
+    .product img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      border-radius: 14px;
+    }
+
+    .product h2 {
+      font-size: 20px;
+      margin: 14px 0 6px;
+      color: #333;
+    }
+
+    .product p {
+      color: #777;
+      font-size: 14px;
+    }
+
+    .footer {
+      background-color: #5c3b24;
+      color: white;
+      text-align: center;
+      padding: 25px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="navbar">
+    <div class="logo">
+      <div class="logo-circle">BB</div>
+      <span>Ban Cheong HardWare Machinery Supply</span>
+    </div>
+
+    <div class="nav-links">
+      <a href="#">Home</a>
+      <a href="#products">Products</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+
+  <div class="hero">
+    <h1>Freshly Baked, Made with Love</h1>
+    <p>Discover our handmade buns, cakes, and cookies.</p>
+  </div>
+
+  <h2 id="products" class="section-title">Our Products</h2>
+
+  <div class="products">
+    <div class="product">
+      <img src="images/product1.jpg" alt="Chocolate Banana Bun">
+      <h2>Chocolate Banana Bun</h2>
+      <p>Soft bun with rich chocolate and banana filling.</p>
+    </div>
+
+    <div class="product">
+      <img src="images/product2.jpg" alt="Strawberry Cake">
+      <h2>Strawberry Cake</h2>
+      <p>Light, fluffy cake topped with fresh strawberries.</p>
+    </div>
+
+    <div class="product">
+      <img src="images/product3.jpg" alt="Matcha Cookie">
+      <h2>Matcha Cookie</h2>
+      <p>Crispy cookie with a smooth matcha flavour.</p>
+    </div>
+  </div>
+
+  <div id="contact" class="contact-section">
+    <h2>Visit Us</h2>
+
+    <p><strong>Address:</strong> Ubi Avenue 1 BLK 342, Singapore 400342 </p>
+    <p><strong>Opening Hours:</strong> Monday - Saturday, 9:00 AM - 5:00 PM</p>
+    <p><strong>Email:</strong> tony_bch@hotmail.com</p>
+    <p><strong>Contact Number:</strong> 67458382</p>
+
+    <div class="map">
+      <iframe
+        src="https://maps.app.goo.gl/qbHdbSFqzrVQn62y8"
+        width="100%"
+        height="350"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy">
+      </iframe>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>© 2026 Ban Cheong HardWare. All rights reserved.</p>
+  </div>
+
+</body>
+</html>
