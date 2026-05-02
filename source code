@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Ban Cheong HardWare Machinery Supply</title>
+  <title>Ban Cheong Hardware Machinery Supply</title>
 
   <style>
     body {
@@ -31,16 +31,10 @@
       color: #8b5e3c;
     }
 
-    .logo-circle {
+    .logo img {
       width: 42px;
       height: 42px;
-      background-color: #8b5e3c;
-      color: white;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: bold;
+      object-fit: contain;
     }
 
     .nav-links a {
@@ -91,11 +85,20 @@
       box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
     }
 
-    .product img {
-      width: 100%;
-      height: 220px;
-      object-fit: cover;
+    .product-image {
+      height: 240px;
+      overflow: hidden;
+      background-color: #f8f5f0;
       border-radius: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .product-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
     }
 
     .product h2 {
@@ -106,7 +109,7 @@
 
     .product p {
       color: #777;
-      font-size: 14px;
+      font-size: 16px;
     }
 
     .footer {
@@ -123,8 +126,8 @@
 
   <div class="navbar">
     <div class="logo">
-      <div class="logo-circle">BB</div>
-      <span>Ban Cheong HardWare Machinery Supply</span>
+      <img src="images/logo.png" alt="Ban Cheong logo">
+      <span>Ban Cheong Hardware Machinery Supply</span>
     </div>
 
     <div class="nav-links">
@@ -135,35 +138,64 @@
   </div>
 
   <div class="hero">
-    <h1>Freshly Baked, Made with Love</h1>
-    <p>Discover our handmade buns, cakes, and cookies.</p>
+    <h1>Your Trusted Hardware Partner</h1>
+    <p>Quality tools, fittings, and supplies for every project.</p>
   </div>
 
   <h2 id="products" class="section-title">Our Products</h2>
 
   <div class="products">
     <div class="product">
-      <img src="images/product1.jpg" alt="Chocolate Banana Bun">
-      <h2>Chocolate Banana Bun</h2>
-      <p>Soft bun with rich chocolate and banana filling.</p>
+      <div class="product-image">
+        <img src="images/product1.jpg" alt="Anti cut glove">
+      </div>
+      <h2>Anti Cut Glove</h2>
+      <p>Item No. 116</p>
     </div>
 
     <div class="product">
-      <img src="images/product2.jpg" alt="Strawberry Cake">
-      <h2>Strawberry Cake</h2>
-      <p>Light, fluffy cake topped with fresh strawberries.</p>
+      <div class="product-image">
+        <img src="images/product2.jpg" alt="Cotton gloves">
+      </div>
+      <h2>Cotton Gloves</h2>
+      <h2>12 Pair Per Pack</h2>
+      <p>Item No. 38</p>
     </div>
 
     <div class="product">
-      <img src="images/product3.jpg" alt="Matcha Cookie">
-      <h2>Matcha Cookie</h2>
-      <p>Crispy cookie with a smooth matcha flavour.</p>
+      <div class="product-image">
+        <img src="images/product3.jpg" alt="Green rubber glove">
+      </div>
+      <h2>Green Rubber Glove</h2>
+      <p>Item No. 384 (Medium)</p>
+      <p>Item No. 51 (Large)</p>
     </div>
+
+    <div class="product">
+      <div class="product-image">
+        <img src="images/product4-cropped.jpg" alt="Canvas yellow glove">
+      </div>
+      <h2>Canvas Yellow Glove</h2>
+      <p>Item No. 35</p>
+    </div>
+
+    <div class="product">
+      <div class="product-image">
+        <img src="images/product5-cropped.jpg" alt="Rubber yellow glove">
+      </div>
+      <h2>Rubber Yellow Glove</h2>
+      <p>Item No. 99 (Small) </p>
+      <p>Item No. 100 (Medium) </p>
+      <p>Item No. 101 (Large) </p>
+      <p>Item No. 102 (Extra Large) </p>
+    </div>
+
+
   </div>
 
   <div class="footer">
-    <p>© 2026 Ban Cheong HardWare. All rights reserved.</p>
-  </div>
+  <p>Copyright 2026 © Ban Cheong Hardware Machinery Supply Reg no 47030000X.</p>
+</div>
 
 </body>
 </html>
